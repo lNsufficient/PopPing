@@ -10,4 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    protected void onClickPopping(textView textView) {
+        textView.update_text('started popping')
+    }
 }
