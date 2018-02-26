@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+    //MEDIA RECORDING:...
+    //https://developer.android.com/guide/topics/media/mediarecorder.html
+
     protected void onClickPopping(View v) {
         TextView tv1 = (TextView)findViewById(R.id.textView_popping_status);
         tv1.setText("Started Popping");
